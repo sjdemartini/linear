@@ -1,8 +1,8 @@
-# Linear SDK CommonJS Smoke Test
+# ✨ Linear SDK CommonJS Smoke Test
 
 Verifies the SDK works as a CommonJS module across different Node.js and TypeScript versions.
 
-## Running locally
+## ✨ Running locally
 
 ```bash
 # From repository root

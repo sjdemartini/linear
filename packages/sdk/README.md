@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Linear API
+  ✨ Linear API ✨
 </h1>
 <h3 align="center">
   The purpose-built tool for planning and building products
@@ -35,14 +35,14 @@
 
 # Visit [developers.linear.app](https://developers.linear.app/docs/sdk/getting-started) for the most up to date documentation
 
-## 🔥 Contribute
+## ✨ Contribute
 
 <br/>
 
 <!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=contribute&src=../../README.md) -->
 The Linear Client uses custom [GraphQL Code Generator](https://graphql-code-generator.com/) plugins to produce a typed SDK for all operations and models exposed by the Linear production API.
 
-### Structure
+### ✨ Structure
 
 This monorepo uses `pnpm` workspaces to manage and publish packages.
 
@@ -55,7 +55,7 @@ Open source packages:
 - [codegen-sdk](https://github.com/linear/linear/tree/master/packages/codegen-sdk/README.md) - GraphQL codegen plugin to generate Typescript SDK from fragments and documents
 - [codegen-test](https://github.com/linear/linear/tree/master/packages/codegen-test/README.md) - GraphQL codegen plugin to generate a jest test for the Typescript SDK
 
-### Get Started
+### ✨ Get Started
 
 Make sure you have Node 18+ and Corepack enabled (`corepack enable`).
 
@@ -76,7 +76,7 @@ pnpm schema
 pnpm changeset
 ```
 
-### Plugin Flow
+### ✨ Plugin Flow
 
 1. The [@linear/codegen-doc](https://github.com/linear/linear/tree/master/packages/codegen-doc/README.md) plugin is used by [codegen.doc.yml](https://github.com/linear/linear/tree/master/packages/sdk/codegen.doc.yml) to generate [fragments and documents](https://github.com/linear/linear/tree/master/packages/sdk/src/_generated_documents.graphql)
 2. The [@linear/codegen-sdk](https://github.com/linear/linear/tree/master/packages/codegen-sdk/README.md) plugin is used by [codegen.sdk.yml](https://github.com/linear/linear/tree/master/packages/sdk/codegen.sdk.yml) to generate the typed [Linear SDK](https://github.com/linear/linear/tree/master/packages/sdk/src/_generated_sdk.ts)
