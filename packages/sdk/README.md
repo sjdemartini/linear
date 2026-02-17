@@ -33,7 +33,7 @@
 </p>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-# ✨ Visit [developers.linear.app](https://developers.linear.app/docs/sdk/getting-started) for the most up to date documentation ✨
+# 🚀 Visit [developers.linear.app](https://developers.linear.app/docs/sdk/getting-started) for the most up to date documentation 🚀
 
 ## 🔥 Contribute
 

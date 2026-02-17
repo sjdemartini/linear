@@ -1,4 +1,4 @@
-# ✨ Upload a file to Linear with Next.js ✨
+# 🚀 Upload a file to Linear with Next.js 🚀
 
 This example shows how to upload a file to Linear using the Linear TypeScript SDK and Node.js. It uses [Next.js](https://nextjs.org/) to render a simple form with a file input. When the form is submitted, the file is uploaded to Linear via a Next.js API Route and the Linear-hosted URL is returned.
 
