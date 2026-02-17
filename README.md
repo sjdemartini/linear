@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Linear API
+  🚀 Linear API 🚀
 </h1>
 <h3 align="center">
   The purpose-built tool for planning and building products
@@ -32,6 +32,21 @@
   </a>
 </p>
 <!-- TEXT_SECTION:header:END -->
+
+<br/>
+
+## 🚀 Why Use Linear
+
+Linear is built for high-performance teams who want to build great products. Here's what makes it special:
+
+- **Fast & Responsive** - Built with speed in mind, Linear feels instant and never gets in your way
+- **Purpose-Built for Software** - Designed specifically for modern software development workflows
+- **Beautiful Interface** - Thoughtfully crafted UI that makes issue tracking actually enjoyable
+- **Powerful API** - Comprehensive GraphQL API with a fully-typed TypeScript SDK for deep integrations
+- **Smart Automation** - Intelligent workflows that adapt to how your team works
+- **Developer-First** - Built by developers, for developers, with keyboard shortcuts and Git integrations
+
+Whether you're managing a small team or coordinating across multiple products, Linear helps you move faster and stay focused on what matters.
 
 <br/>
 
