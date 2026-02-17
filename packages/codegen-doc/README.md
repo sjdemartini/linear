@@ -1,10 +1,10 @@
-# Linear Codegen Document
+# 📄 Linear Codegen Document
 
 This custom [graphql-code-generator](https://graphql-code-generator.com/) plugin takes the Linear GraphQL [schema](../sdk/src/schema.graphql) and generates GraphQL [fragments and operations](../sdk/src/_generated_documents.graphql). 
 
 Usage in [codegen.doc.yml](../sdk/codegen.doc.yml).
 
-## Output
+## 📦 Output
 
 The [@linear/sdk](../sdk/README.md) uses this code generator [plugin](./src/plugin.ts) to generate:
 
@@ -22,7 +22,7 @@ An operation for each nested query within a model containing:
 - fragment spread for the matching child model
 - a query name joining the root and child query fields (eg `query user_assignedIssues`)
 
-## Flow
+## 🔄 Flow
 
 1. The GraphQL schema is parsed using a reusable [ContextVisitor](./src/context-visitor.ts) to provide consistent information across the Linear code generator plugins
 2. The context is visited using the [FragmentVisitor](./src/fragment-visitor.ts) to return a list of printed GraphQL fragments
@@ -30,7 +30,7 @@ An operation for each nested query within a model containing:
 4. The printed fragments and operations are returned to be printed 
 
 <!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=license&src=../../README.md) -->
-## License
+## ⚖️ License
 
 <br/>
 

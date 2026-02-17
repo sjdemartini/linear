@@ -4,7 +4,7 @@
 > Please see [the documentation](https://linear.app/docs/import-issues) for more information.
 > If you would like to import data from other services not listed above, this CLI may still be useful.
 
-# linear-import
+# 📥 linear-import
 
 Install the CLI:
 
@@ -24,11 +24,11 @@ Run interactive importer:
 linear-import
 ```
 
-## Importers
+## 🔌 Importers
 
 It's recommended to only import open issues to keep your Linear account more manageable. Note that creation and modification dates on issues will not carry over.
 
-### GitHub
+### 🐙 GitHub
 
 Open GitHub issues can be imported with your personal access token from GitHub's API.
 
@@ -39,7 +39,7 @@ Supported fields:
 - Labels
 - (Optional) Comments
 
-### Jira CSV
+### 📊 Jira CSV
 
 This method is deprecated. We recommend importing Jira projects through the [in-product importer](https://linear.app/docs/import-issues#jira) instead of the CLI, which also offers a CSV import option but imports more fields. If you proceed, the following fields are supported:
 
@@ -51,7 +51,7 @@ This method is deprecated. We recommend importing Jira projects through the [in-
 - `Issue Type` - Added as a label
 - (Optional) `Release` - Added as a label
 
-### Asana CSV
+### 📊 Asana CSV
 
 Asana projects can be imported into a Linear team from the CSV export file.
 
@@ -63,7 +63,7 @@ The following fields are supported:
 - `Tags` - Added as a label
 - `Assignee` - Issue assignee
 
-### Pivotal Tracker CSV
+### 📊 Pivotal Tracker CSV
 
 Pivotal Tracker projects can be imported into a Linear team from the CSV export file. It only imports `chores`, `features`, and `bugs`.
 
@@ -76,7 +76,7 @@ The following fields are supported:
 - `URL` - URL of Pivotal Tracker story
 - `Created at` - Preserves the story creation date
 
-### Shortcut CSV
+### 📊 Shortcut CSV
 
 Shortcut workspaces can be imported into a Linear team from the CSV export file. It only imports `chores`, `features`, and `bugs`.
 
@@ -93,7 +93,7 @@ The following fields are supported:
 - `URL` - URL of Shortcut story, also appended to the description
 - `Created at` - Preserves the story creation date
 
-### Trello JSON
+### 📋 Trello JSON
 
 Trello board can be imported into a Linear team from the JSON export file, which can be obtained by going into Board → Show Menu → More → Print and Export → Export as JSON.
 
@@ -106,7 +106,7 @@ The following fields are supported:
 - `Attachments` - Added as links in the description
 - (Optional) `Comments` - Added in the description
 
-### Linear CSV
+### 📊 Linear CSV
 
 Linear CSV exports (Settings → Import / Export → Export CSV) can be imported into Linear again. You can use this to import issues from one workspace to another. Archived issues won't be imported.
 
@@ -122,7 +122,7 @@ The following fields are supported:
 - `Created` - Issue creation date
 - `Completed` - Issue completion date (if has completed status)
 
-### GitLab CSV
+### 🦊 GitLab CSV
 
 GitLab issues can be imported into a Linear team from the CSV export file.
 Go to your project in GitLab. Select Plan > Issues from the left sidebar. Use filters if you want to narrow down the list. In the upper right, click Actions (⋮) > Export as CSV.
@@ -141,7 +141,7 @@ The following fields are supported:
 - `Time Estimate` - Issue estimate
 
 <!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=license&src=../../README.md) -->
-## License
+## ⚖️ License
 
 <br/>
 
