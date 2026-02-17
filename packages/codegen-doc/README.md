@@ -1,4 +1,4 @@
-# Linear Codegen Document
+# ✨ Linear Codegen Document ✨
 
 This custom [graphql-code-generator](https://graphql-code-generator.com/) plugin takes the Linear GraphQL [schema](../sdk/src/schema.graphql) and generates GraphQL [fragments and operations](../sdk/src/_generated_documents.graphql). 
 
