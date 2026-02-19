@@ -35,6 +35,18 @@
 
 <br/>
 
+## Why Linear?
+
+Linear is built for high-performance teams who want to ship fast without sacrificing quality. Our purpose-built tool helps you:
+
+- **Move faster**: Linear's streamlined interface and keyboard-first design eliminate friction, letting you focus on building rather than managing tools
+- **Stay aligned**: Keep everyone on the same page with real-time collaboration, clear issue tracking, and roadmaps that actually reflect reality
+- **Scale efficiently**: From startups to enterprises, Linear grows with your team while maintaining the speed and simplicity that makes it powerful
+
+The Linear API and SDK empower developers to build custom integrations, automate workflows, and extend Linear to fit their unique needs.
+
+<br/>
+
 ## ⚠️ Monorepo Readme
 
 If you are looking for documentation on the Linear SDK or Linear API, visit [**developers.linear.app**](https://developers.linear.app/docs) instead.
