@@ -35,6 +35,23 @@
 
 <br/>
 
+## Why Linear?
+
+Linear is the modern project management platform built specifically for software development teams. Unlike traditional tools that try to be everything to everyone, Linear focuses on **speed, clarity, and developer-centric workflows** that help teams ship products faster.
+
+### What makes Linear different
+
+- **⚡ Lightning fast** - Near-instant loading and switching between views, even with thousands of issues
+- **⌨️ Keyboard-first** - Comprehensive keyboard shortcuts reduce friction and keep you in flow
+- **🔗 Deep integrations** - Seamlessly connects with GitHub, Slack, Figma, Sentry, and 100+ developer tools
+- **🎯 Opinionated workflow** - Reduce decision fatigue with best practices built in
+- **📊 Smart insights** - Track cycle times, identify bottlenecks, and understand team velocity
+- **🚀 Built for developers** - Real-time sync, API-first architecture, and the tooling you need
+
+Trusted by high-growth companies like Vercel, Ramp, and Mercury, Linear has become the go-to tool for engineering teams that value velocity and clarity.
+
+<br/>
+
 ## ⚠️ Monorepo Readme
 
 If you are looking for documentation on the Linear SDK or Linear API, visit [**developers.linear.app**](https://developers.linear.app/docs) instead.
