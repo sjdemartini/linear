@@ -35,6 +35,18 @@
 
 <br/>
 
+## Why Linear?
+
+Linear is the fast, minimal, and opinionated project management tool built specifically for software teams. It brings together issue tracking, roadmapping, and team workflows in one keyboard-driven interface that's designed to keep you in flow.
+
+**Speed & Performance** — Pages load instantly, interactions complete in milliseconds, and real-time sync keeps your team on the same page without delays. Performance isn't just a feature, it's fundamental to the experience.
+
+**Developer-Focused** — Purpose-built for software development with cycles, triage inbox, tight Git integrations, and technical workflow automation. Used by engineering teams at Vercel, CashApp, Perplexity, and more.
+
+**Quick Adoption** — New team members can start using Linear immediately without extensive training. Its opinionated design makes smart choices about workflows, reducing setup time and helping teams move faster.
+
+<br/>
+
 ## ⚠️ Monorepo Readme
 
 If you are looking for documentation on the Linear SDK or Linear API, visit [**developers.linear.app**](https://developers.linear.app/docs) instead.
