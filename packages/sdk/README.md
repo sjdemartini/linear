@@ -53,6 +53,7 @@ import { LinearClient } from "@linear/sdk";
 const linearClient = new LinearClient({ apiKey: "YOUR_API_KEY" });
 
 async function getMyIssues() {
+  // Fetch the authenticated user
   const me = await linearClient.viewer;
   const myIssues = await me.assignedIssues();
 
