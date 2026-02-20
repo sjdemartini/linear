@@ -35,6 +35,47 @@
 
 # Visit [developers.linear.app](https://developers.linear.app/docs/sdk/getting-started) for the most up to date documentation
 
+## Quick Start
+
+Install the SDK:
+
+```shell
+npm install @linear/sdk
+# or
+yarn add @linear/sdk
+```
+
+Create a client with your [API key](https://linear.app/settings/account/security) and make a request:
+
+```typescript
+import { LinearClient } from "@linear/sdk";
+
+const linearClient = new LinearClient({ apiKey: "YOUR_API_KEY" });
+
+async function getMyIssues() {
+  const me = await linearClient.viewer;
+  const myIssues = await me.assignedIssues();
+
+  myIssues.nodes.map(issue =>
+    console.log(`${me.displayName} has issue: ${issue.title}`)
+  );
+}
+
+getMyIssues();
+```
+
+Create an issue:
+
+```typescript
+const teams = await linearClient.teams();
+const team = teams.nodes[0];
+
+await linearClient.createIssue({
+  teamId: team.id,
+  title: "My Issue",
+});
+```
+
 ## 🔥 Contribute
 
 <br/>
