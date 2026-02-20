@@ -35,6 +35,27 @@
 
 <br/>
 
+<!-- TEXT_SECTION:quickstart:START -->
+## Get started
+
+```shell
+npm install @linear/sdk
+```
+
+```typescript
+import { LinearClient } from "@linear/sdk";
+
+const linearClient = new LinearClient({ apiKey: "YOUR_API_KEY" });
+
+const me = await linearClient.viewer;
+const myIssues = await me.assignedIssues();
+```
+
+Visit [developers.linear.app](https://developers.linear.app/docs/sdk/getting-started) for more documentation.
+<!-- TEXT_SECTION:quickstart:END -->
+
+<br/>
+
 ## ⚠️ Monorepo Readme
 
 If you are looking for documentation on the Linear SDK or Linear API, visit [**developers.linear.app**](https://developers.linear.app/docs) instead.

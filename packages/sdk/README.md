@@ -33,7 +33,24 @@
 </p>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-# Visit [developers.linear.app](https://developers.linear.app/docs/sdk/getting-started) for the most up to date documentation
+<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=quickstart&src=../../README.md) -->
+## Get started
+
+```shell
+npm install @linear/sdk
+```
+
+```typescript
+import { LinearClient } from "@linear/sdk";
+
+const linearClient = new LinearClient({ apiKey: "YOUR_API_KEY" });
+
+const me = await linearClient.viewer;
+const myIssues = await me.assignedIssues();
+```
+
+Visit [developers.linear.app](https://developers.linear.app/docs/sdk/getting-started) for more documentation.
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## 🔥 Contribute
 
