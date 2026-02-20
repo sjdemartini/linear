@@ -35,6 +35,20 @@
 
 <br/>
 
+## Why Linear?
+
+Linear is designed to help modern software teams move fast. Unlike traditional project management tools, Linear is purpose-built for software development with a focus on speed, simplicity, and a delightful user experience.
+
+**Key benefits:**
+- **Built for speed** - Linear is fast and keyboard-first, designed to keep you in flow
+- **Beautiful and intuitive** - A thoughtfully crafted interface that developers actually want to use
+- **Tight integrations** - Connect with GitHub, GitLab, Slack, Figma, and more to sync your workflow
+- **Powerful API** - This SDK provides full programmatic access to Linear's features, enabling custom integrations and automation
+
+Whether you're tracking bugs, planning sprints, or managing product roadmaps, Linear helps your team stay aligned and ship faster.
+
+<br/>
+
 ## ⚠️ Monorepo Readme
 
 If you are looking for documentation on the Linear SDK or Linear API, visit [**developers.linear.app**](https://developers.linear.app/docs) instead.
