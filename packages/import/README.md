@@ -4,7 +4,7 @@
 > Please see [the documentation](https://linear.app/docs/import-issues) for more information.
 > If you would like to import data from other services not listed above, this CLI may still be useful.
 
-# linear-import
+# linear-import!
 
 Install the CLI:
 
