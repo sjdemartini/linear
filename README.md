@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Linear API
+  Linear API is the public SDK for building with Linear
 </h1>
 <h3 align="center">
   The purpose-built tool for planning and building products
