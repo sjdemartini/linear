@@ -140,7 +140,7 @@ The following fields are supported:
 - `Weight` - Issue priority
 - `Time Estimate` - Issue estimate
 
-<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=license&src=../../README.md) -->
+<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=license&src=../../readme.md) -->
 ## License
 
 <br/>

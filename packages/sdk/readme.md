@@ -1,4 +1,4 @@
-<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=header&src=../../README.md) -->
+<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=header&src=../../readme.md) -->
 <p align="center">
   <a href="https://linear.app" target="_blank" rel="noopener noreferrer">
     <img width="64" src="https://raw.githubusercontent.com/linear/linear/master/docs/logo.svg" alt="Linear logo">
@@ -39,7 +39,7 @@
 
 <br/>
 
-<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=contribute&src=../../README.md) -->
+<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=contribute&src=../../readme.md) -->
 The Linear Client uses custom [GraphQL Code Generator](https://graphql-code-generator.com/) plugins to produce a typed SDK for all operations and models exposed by the Linear production API.
 
 ### Structure
@@ -49,11 +49,11 @@ This monorepo uses `pnpm` workspaces to manage and publish packages.
 Generated code uses file prefix `_generated` and should never be manually updated.
 
 Open source packages:
-- [sdk](https://github.com/linear/linear/tree/master/packages/sdk/README.md) - The Linear Client SDK for interacting with the Linear GraphQL API
-- [import](https://github.com/linear/linear/tree/master/packages/import/README.md) - Import tooling for uploading from other systems
-- [codegen-doc](https://github.com/linear/linear/tree/master/packages/codegen-doc/README.md) - GraphQL codegen plugin to generate GraphQL fragments and documents
-- [codegen-sdk](https://github.com/linear/linear/tree/master/packages/codegen-sdk/README.md) - GraphQL codegen plugin to generate Typescript SDK from fragments and documents
-- [codegen-test](https://github.com/linear/linear/tree/master/packages/codegen-test/README.md) - GraphQL codegen plugin to generate a jest test for the Typescript SDK
+- [sdk](https://github.com/linear/linear/tree/master/packages/sdk/readme.md) - The Linear Client SDK for interacting with the Linear GraphQL API
+- [import](https://github.com/linear/linear/tree/master/packages/import/readme.md) - Import tooling for uploading from other systems
+- [codegen-doc](https://github.com/linear/linear/tree/master/packages/codegen-doc/readme.md) - GraphQL codegen plugin to generate GraphQL fragments and documents
+- [codegen-sdk](https://github.com/linear/linear/tree/master/packages/codegen-sdk/readme.md) - GraphQL codegen plugin to generate Typescript SDK from fragments and documents
+- [codegen-test](https://github.com/linear/linear/tree/master/packages/codegen-test/readme.md) - GraphQL codegen plugin to generate a jest test for the Typescript SDK
 
 ### Get Started
 
@@ -78,14 +78,14 @@ pnpm changeset
 
 ### Plugin Flow
 
-1. The [@linear/codegen-doc](https://github.com/linear/linear/tree/master/packages/codegen-doc/README.md) plugin is used by [codegen.doc.yml](https://github.com/linear/linear/tree/master/packages/sdk/codegen.doc.yml) to generate [fragments and documents](https://github.com/linear/linear/tree/master/packages/sdk/src/_generated_documents.graphql)
-2. The [@linear/codegen-sdk](https://github.com/linear/linear/tree/master/packages/codegen-sdk/README.md) plugin is used by [codegen.sdk.yml](https://github.com/linear/linear/tree/master/packages/sdk/codegen.sdk.yml) to generate the typed [Linear SDK](https://github.com/linear/linear/tree/master/packages/sdk/src/_generated_sdk.ts)
-3. The [@linear/codegen-test](https://github.com/linear/linear/tree/master/packages/codegen-test/README.md) plugin is used by [codegen.test.yml](https://github.com/linear/linear/tree/master/packages/sdk/codegen.test.yml) to generate a typed [jest test](https://github.com/linear/linear/tree/master/packages/sdk/src/_tests/_generated.test.ts)
+1. The [@linear/codegen-doc](https://github.com/linear/linear/tree/master/packages/codegen-doc/readme.md) plugin is used by [codegen.doc.yml](https://github.com/linear/linear/tree/master/packages/sdk/codegen.doc.yml) to generate [fragments and documents](https://github.com/linear/linear/tree/master/packages/sdk/src/_generated_documents.graphql)
+2. The [@linear/codegen-sdk](https://github.com/linear/linear/tree/master/packages/codegen-sdk/readme.md) plugin is used by [codegen.sdk.yml](https://github.com/linear/linear/tree/master/packages/sdk/codegen.sdk.yml) to generate the typed [Linear SDK](https://github.com/linear/linear/tree/master/packages/sdk/src/_generated_sdk.ts)
+3. The [@linear/codegen-test](https://github.com/linear/linear/tree/master/packages/codegen-test/readme.md) plugin is used by [codegen.test.yml](https://github.com/linear/linear/tree/master/packages/sdk/codegen.test.yml) to generate a typed [jest test](https://github.com/linear/linear/tree/master/packages/sdk/src/_tests/_generated.test.ts)
 
 <br/>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=license&src=../../README.md) -->
+<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=license&src=../../readme.md) -->
 ## License
 
 <br/>

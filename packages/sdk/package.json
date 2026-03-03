@@ -12,7 +12,7 @@
   "files": [
     "webhooks",
     "dist",
-    "README.md"
+    "readme.md"
   ],
   "scripts": {
     "test": "vitest",

@@ -6,7 +6,7 @@ Usage in [codegen.doc.yml](../sdk/codegen.doc.yml).
 
 ## Output
 
-The [@linear/sdk](../sdk/README.md) uses this code generator [plugin](./src/plugin.ts) to generate:
+The [@linear/sdk](../sdk/readme.md) uses this code generator [plugin](./src/plugin.ts) to generate:
 
 A fragment for each model in the Linear API containing:
 - all scalar fields on the model
@@ -29,7 +29,7 @@ An operation for each nested query within a model containing:
 3. The fragments and context are visited using the [OperationVisitor](./src/operation-visitor.ts) to return a list of printed GraphQL operations
 4. The printed fragments and operations are returned to be printed 
 
-<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=license&src=../../README.md) -->
+<!-- AUTO-GENERATED-CONTENT:START (TEXT_SECTION:id=license&src=../../readme.md) -->
 ## License
 
 <br/>
