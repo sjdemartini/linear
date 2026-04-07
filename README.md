@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Build with Linear API
+  Build & Integrate with Linear API
 </h1>
 <h3 align="center">
   The purpose-built tool for planning and building products
