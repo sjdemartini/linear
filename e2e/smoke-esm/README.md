@@ -1,4 +1,4 @@
-# LINEAR SDK ESM Smoke Test!
+# Linear SDK ESM Smoke Test!
 
 Verifies the SDK works as an ES module across different Node.js and TypeScript versions.
 
